@@ -1,0 +1,15 @@
+{
+    "QFluentWidgets": {
+        "FontFamilies": [
+            "Segoe UI",
+            "Microsoft YaHei",
+            "PingFang SC"
+        ],
+        "ThemeColor": "#ff009faa",
+        "ThemeMode": "Light"
+    },
+    "Paths": {
+        "LOL客户端资产路径": "F:/__Code/PyFileTools",
+        "导出资产路径": "F:\\__Code\\lol_tools\\src\\LOL_OUT"
+    }
+}
