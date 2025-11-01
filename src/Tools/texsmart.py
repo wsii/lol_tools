@@ -2,6 +2,8 @@ import os.path
 from PIL import Image
 from . import lepath, tools, Ritoddstex
 
+# 转换贴图
+
 def dds2png(src):
     tools.ImageMagick.to_png(
         src=src,

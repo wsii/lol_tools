@@ -1,6 +1,7 @@
 from . import pyRitoFile
 import json
 
+# 专门用于检查和分析英雄联盟(LoL)游戏文件的工具脚本，可以将二进制游戏文件转换为可读的JSON格式进行查看和分析
 class FIEncoder(json.JSONEncoder):
     def default(self, obj):
         if hasattr(obj, '__json__'):

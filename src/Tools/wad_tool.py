@@ -1,6 +1,8 @@
 from . import lepath, pyRitoFile
 import os, json
 
+# 解包wad文件
+
 def unpack(wad_file, raw_dir, hashtables, filter=None):
     print(f'wad_tool: Start:  Unpack WAD: {wad_file}')
     # read wad

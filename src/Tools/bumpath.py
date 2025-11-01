@@ -1,4 +1,4 @@
-from LtMAO import lepath, pyRitoFile, hash_helper
+import lepath, pyRitoFile, hash_helper
 import os, os.path, shutil
 
 def unify_path(path):

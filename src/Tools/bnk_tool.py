@@ -5,6 +5,7 @@ from natsort import os_sorted
 from shutil import rmtree
 import pyaudio, wave, audioop
 
+# 功能强大的英雄联盟(LoL)音频处理工具，专门用于处理游戏中的BNK(Wwise银行文件)和WPK格式音频文件。它提供了完整的音频文件解析、提取、播放和转换功能
 
 class BankTree:
     __slots__ = ('events', 'wems')

@@ -1,6 +1,8 @@
 from . import lepath, pyRitoFile
 import struct, math
 
+# 转换游戏贴图为开放图片格式
+
 def dds2tex(dds_path, tex_path=None):
     # prepare path
     if tex_path == None:

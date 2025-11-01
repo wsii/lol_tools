@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 
 TEXTURE_SIZE = 1024
 UV_COLOR = 0xFFFFFFFF
-
+# 提取skn文件的uv图
 def uvee_skn(path):
     imgs = []
     # read file
